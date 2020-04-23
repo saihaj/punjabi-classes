@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+  <meta charset="UTF-8">
+  <title>ਔਨਲਾਈਨ ਪੰਜਾਬੀ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <style>
+    @font-face {
+    font-family: 'opensatlujuniregular';
+    src: url('opensatlujuni-regular-webfont.woff2') format('woff2'),
+         url('opensatlujuni-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    :root {
+      --base-font-size: 20px;
+      --base-font-family: 'opensatlujuniregular';
+      --link-text-decoration: ;       
+      --theme-hue       : 190;
+      --theme-saturation: 80%;
+      --theme-lightness : 55%;
+    }
+    /* If need to add nav bar specific to directory */
+    /* ul li p a{
+      color: white;
+    } */
+    /* If using docsify dark theme */
+    /* .sidebar .search{
+      padding-top: 50px;
+    }
+    .sidebar .sidebar-nav{
+      padding-bottom: 10px;
+    }
+    .sidebar-toggle{
+      bottom: unset;
+    }
+    .sidebar li p a {
+      font-weight: bold;
+    } */
+  </style>
+
+</head>
+<body>
+  <!-- <nav>
+    <a href="#/Class-X/guide">Class X</a>
+  </nav> -->
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'ਔਨਲਾਈਨ ਪੰਜਾਬੀ',
+      repo: '',
+      search: 'auto',
+      loadSidebar: true,
+      notFoundPage: true,
+      relativePath: true,
+      loadNavbar: true,
+      externalLinkTarget: '', // default: 'noopener'
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Find',
+        noData: 'No Results!',
+        // Headline depth, 1 - 6
+        depth: 2,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+     },
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script> -->
+</body>
+</html>

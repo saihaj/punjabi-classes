@@ -1,3 +1,3 @@
 # ਜਮਾਤਾਂ
 
-## [ਦਸਵੀਂ ਜਮਾਤ](/Class-X/guide.md)
+## [ਦਸਵੀਂ ਜਮਾਤ](Class-X/guide.md)

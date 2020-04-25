@@ -26,14 +26,19 @@ jobs:
     - name: Test links
       uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
+        use-quiet-mode: yes
         use-verbose-mode: yes
-
+  
     - name: Deploy
       uses: crazy-max/ghaction-github-pages@v1
       with:
         build_dir: content
         committer_name: saihaj
         commiter_email: saihaj@users.noreply.github.com
+        keep_history: true
+        allow_empty_commit: false
+        commit_message: ${{ github.event.head_commit.message }}
+        fdqn: punjabionline.honlov.in
       env:
         GITHUB_PAT: ${{ secrets.deploy_access_token }}
 

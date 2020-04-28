@@ -5,5 +5,4 @@
 
 
 # **ਸਾਹਿਤਕ ਰੰਗ - ੨** 
-<!-- markdown-link-check-disable-next-line -->
 ## [ਅਧਿਆਇ ੨](sahitak-rang/chapter02/guide.md)
